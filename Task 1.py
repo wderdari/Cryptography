@@ -1,9 +1,10 @@
 # Required imports
 import string
 
+# f(x)= (a * x + b) mod 26  (Affine Cipher Encryption Function)
+# EncryptAffine takes three parameters, the plaintext, a positive integer value for a and b parameters.
 
-def encryptAffine(plaintext, a, b):
-
+def encryptAffine(plaintext, a, b):  
 
     charcipher = {} # Dictionary to store each plain text character's corresponding cipher character.
 
@@ -26,21 +27,4 @@ def encryptAffine(plaintext, a, b):
 
 
 if __name__ == '__main__':
-    print(encryptAffine("He!!0 w0R!4", 123, 500))
-
-# if plainchar.islower():
-#            ciphertext = ciphertext + plainchar
-#
-#
-#        if plainchar == " ":
-#            ciphertext = ciphertext + " "  # Includes a space in the ciphertext according to the plaintext
-
-
- # if i.isupper() & i.isalpha():
- #            x = ord(i) - 65  # ord() converts letter to ASCII value. Subtract 67 for alphabet position.
- #            if x == 26:
- #                x = 0
- #            ciphertext = ciphertext + (chr(((a * ord(i) + b) % 26) + 67))  # Uses the affine function to encrypt
- #
- #        else:
- #            ciphertext = ciphertext + i
+    print(encryptAffine("He!!0 w0R!4", 123, 500)) # Test example.
