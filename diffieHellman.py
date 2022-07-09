@@ -6,8 +6,6 @@ from cryptography.hazmat.primitives.serialization import Encoding, PublicFormat,
     load_pem_public_key, load_pem_private_key
 
 
-# from dhCheck import dhCheckCorrectness # You MUST have this included for your submission on Coderunner. You can remove it when you test your code in local system.
-
 # 1. Generate private key x using the PEM encoding.
 # 2. Generate private key y using the PEM encoding.
 # 3. Calculate a public key A & B
