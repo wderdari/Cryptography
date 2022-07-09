@@ -1,5 +1,7 @@
 import hashlib
 
+# Calculates and returns the avalanche number between two strings and 
+# determines the number of bits that are different in their SHA256 hashed values.
 
 def avalancheCalculator(string1, string2):
 
